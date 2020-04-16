@@ -258,6 +258,12 @@
 # [1] 21 22 23 24 25 30
 ```
 
+### 计算广义线性混合模型中效应的power
+
+广义模型中效应的power计算与上面的类似，主要区别是：
+
+* 考察固定效应时，`fixed()`中`method`参数应设置为`'z'`，因为广义模型中固定效应为z检验;
+* 考察主效应时，`fixed()`中`method`参数应设置为`'chisq'`，因为广义模型中固定效应为卡方检验
 
 [数据下载地址]:https://github.com/usplos/YawMMF/raw/master/data/DemoData.rda
 
