@@ -8,7 +8,7 @@
 
 ## 数据包及其函数
 
-`simr` 数据包是 `R` 中进行LMM的power分析较为便利的包。
+[`simr`](https://cran.r-project.org/web/packages/simr/index.html) 数据包是 `R` 中进行LMM的power分析较为便利的包。
 在分析中，依靠蒙泰卡罗模拟的方式来模拟模型数据，并且计算在设定的模拟次数中，达到显著的比例。主要的函数为`powerSim()`。
 
 ## 适用情景
