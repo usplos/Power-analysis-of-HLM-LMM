@@ -121,7 +121,7 @@
 # nb: result might be an observed power calculation
 ```
 
-`CondA`的主效应的power为`0.12`(置信区间为`0.453 – 0.243`)。
+`CondA`的主效应的power为`0.12`(置信区间为`0.045 – 0.243`)。
 
 ### 计算先验效应的power
 
